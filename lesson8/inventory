@@ -1,5 +1,5 @@
 ourselvesshelves.corp.ir2.yahoo.com
-ansible2.example.com
+defendfriend.corp.ir2.yahoo.com
 ansible5.example.com
 
 [lamp_test]
@@ -7,7 +7,7 @@ ourselvesshelves.corp.ir2.yahoo.com
 
 [lamp_prod]
 ourselvesshelves.corp.ir2.yahoo.com
-ansible2.example.com
+defendfriend.corp.ir2.yahoo.com
 ansible5.example.com
 
 [nodes:children]

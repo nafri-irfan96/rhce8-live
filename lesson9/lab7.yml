@@ -1,6 +1,6 @@
 ---
 - name: install vsftpd
-  hosts: ansible2.example.com
+  hosts: defendfriend.corp.ir2.yahoo.com
   tasks:
   - name: get basic vsftpd operational
     yum:
@@ -19,7 +19,7 @@
       state: enabled
 
 - name: configure VSFTPD using a template
-  hosts: ansible2.example.com
+  hosts: defendfriend.corp.ir2.yahoo.com
   vars:
     anonymous_enable: yes
     local_enable: yes
@@ -32,7 +32,7 @@
       dest: /etc/vsftpd/vsftpd.conf
 
 - name: configure vsftpd permissions and selinux
-  hosts: ansible2.example.com
+  hosts: defendfriend.corp.ir2.yahoo.com
   tasks:
   - name: install required selinux tools
     yum:

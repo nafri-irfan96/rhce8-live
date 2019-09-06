@@ -1,12 +1,12 @@
 ourselvesshelves.corp.ir2.yahoo.com
-ansible2.example.com
+defendfriend.corp.ir2.yahoo.com
 
 [lamp-test]
 ourselvesshelves.corp.ir2.yahoo.com
 
 [lamp-prod]
 ourselvesshelves.corp.ir2.yahoo.com
-ansible2.example.com
+defendfriend.corp.ir2.yahoo.com
 
 [servers:children]
 lamp-test

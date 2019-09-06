@@ -1,6 +1,6 @@
 ---
 - name: remove httpd
-  hosts: ansible2.example.com
+  hosts: defendfriend.corp.ir2.yahoo.com
   tasks:
     - name: close firewall
       firewalld:

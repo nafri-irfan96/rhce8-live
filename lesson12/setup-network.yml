@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: BSD-3-Clause
 ---
-- hosts: ansible2.example.com
+- hosts: defendfriend.corp.ir2.yahoo.com
   vars:
     network_connections:
 
