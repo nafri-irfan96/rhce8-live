@@ -16,11 +16,11 @@
       name: lesson12
       description: RHCE8 lesson 12 repo
       file: lesson 12
-      baseurl: ftp://control.example.com/repo/
+      baseurl: ftp://behoovesmoves.corp.ir2.yahoo.com/repo/
       gpgcheck: yes
   - name: install repo GPG key
     rpm_key:
-      key: ftp://control.example.com/repo/repo-gpg-key
+      key: ftp://behoovesmoves.corp.ir2.yahoo.com/repo/repo-gpg-key
       state: present
   - name: install package
     yum:
