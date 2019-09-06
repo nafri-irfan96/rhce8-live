@@ -1,13 +1,13 @@
-control.example.com
-ansible1.example.com
-ansible2.example.com
+behoovesmoves.corp.ir2.yahoo.com
+ourselvesshelves.corp.ir2.yahoo.com
+defendfriend.corp.ir2.yahoo.com
 ansible3.example.com
 
 [lamp]
-ansible1.example.com
+ourselvesshelves.corp.ir2.yahoo.com
 
 [file]
-ansible2.example.com
+defendfriend.corp.ir2.yahoo.com
 
 [nodes:children]
 lamp

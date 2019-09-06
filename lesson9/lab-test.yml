@@ -7,7 +7,7 @@
       name: lftp
   - name: upload file
     shell: >
-      lftp ansible2.example.com <<EOF
+      lftp defendfriend.corp.ir2.yahoo.com <<EOF
       cd pub
       put /etc/hosts
       EOF

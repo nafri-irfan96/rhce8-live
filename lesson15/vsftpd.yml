@@ -1,6 +1,6 @@
 ---
 - name: deploy vsftpd
-  hosts: ansible2.example.com
+  hosts: defendfriend.corp.ir2.yahoo.com
   vars:
     package: vsfptd
   tasks: 

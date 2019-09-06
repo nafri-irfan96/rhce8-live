@@ -1,6 +1,6 @@
 ---
 - name: test assert
-  hosts: ansible2.example.com
+  hosts: defendfriend.corp.ir2.yahoo.com
   tasks:
   - name: test assert
     assert:
@@ -12,7 +12,7 @@
       msg: ens33 exists
 
 - name: second play
-  hosts: ansible2.example.com
+  hosts: defendfriend.corp.ir2.yahoo.com
   tasks:
   - name: placeholder
     debug:

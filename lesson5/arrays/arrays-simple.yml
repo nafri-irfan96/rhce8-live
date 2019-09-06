@@ -1,6 +1,6 @@
 ---
 - name: show arrays
-  hosts: ansible1.example.com
+  hosts: ourselvesshelves.corp.ir2.yahoo.com
   vars_files:
     - vars/users
   tasks:
