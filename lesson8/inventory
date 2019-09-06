@@ -1,12 +1,12 @@
-ansible1.example.com
+ourselvesshelves.corp.ir2.yahoo.com
 ansible2.example.com
 ansible5.example.com
 
 [lamp_test]
-ansible1.example.com
+ourselvesshelves.corp.ir2.yahoo.com
 
 [lamp_prod]
-ansible1.example.com
+ourselvesshelves.corp.ir2.yahoo.com
 ansible2.example.com
 ansible5.example.com
 

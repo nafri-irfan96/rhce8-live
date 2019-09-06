@@ -1,19 +1,19 @@
 2019-06-12 02:28:36,283 p=1916 u=ansible |  PLAY [show how debug works] **************************************************************************
 2019-06-12 02:28:36,291 p=1916 u=ansible |  TASK [Gathering Facts] *******************************************************************************
-2019-06-12 02:28:38,106 p=1916 u=ansible |  ok: [ansible1.example.com]
+2019-06-12 02:28:38,106 p=1916 u=ansible |  ok: [ourselvesshelves.corp.ir2.yahoo.com]
 2019-06-12 02:28:38,125 p=1916 u=ansible |  ok: [ansible2.example.com]
 2019-06-12 02:28:38,145 p=1916 u=ansible |  TASK [show value of a fact] **************************************************************************
 2019-06-12 02:28:38,325 p=1916 u=ansible |  ok: [ansible2.example.com] => {
     "msg": "this system has 1206 available ram"
 }
-2019-06-12 02:28:38,349 p=1916 u=ansible |  ok: [ansible1.example.com] => {
+2019-06-12 02:28:38,349 p=1916 u=ansible |  ok: [ourselvesshelves.corp.ir2.yahoo.com] => {
     "msg": "this system has 1162 available ram"
 }
 2019-06-12 02:28:38,366 p=1916 u=ansible |  TASK [show a custom variable] ************************************************************************
 2019-06-12 02:28:38,560 p=1916 u=ansible |  skipping: [ansible2.example.com]
-2019-06-12 02:28:38,572 p=1916 u=ansible |  skipping: [ansible1.example.com]
+2019-06-12 02:28:38,572 p=1916 u=ansible |  skipping: [ourselvesshelves.corp.ir2.yahoo.com]
 2019-06-12 02:28:38,576 p=1916 u=ansible |  PLAY RECAP *******************************************************************************************
-2019-06-12 02:28:38,576 p=1916 u=ansible |  ansible1.example.com       : ok=2    changed=0    unreachable=0    failed=0   
+2019-06-12 02:28:38,576 p=1916 u=ansible |  ourselvesshelves.corp.ir2.yahoo.com       : ok=2    changed=0    unreachable=0    failed=0   
 2019-06-12 02:28:38,577 p=1916 u=ansible |  ansible2.example.com       : ok=2    changed=0    unreachable=0    failed=0   
 2019-06-12 03:15:33,033 p=2002 u=ansible |  ERROR! Syntax Error while loading YAML.
   found unacceptable key (unhashable type: 'AnsibleMapping')
@@ -67,11 +67,11 @@ The offending line appears to be:
 
 2019-06-12 03:29:24,015 p=2051 u=ansible |  PLAY [simple debug example] **************************************************************************
 2019-06-12 03:29:24,023 p=2051 u=ansible |  TASK [Gathering Facts] *******************************************************************************
-2019-06-12 03:29:26,045 p=2051 u=ansible |  ok: [ansible1.example.com]
+2019-06-12 03:29:26,045 p=2051 u=ansible |  ok: [ourselvesshelves.corp.ir2.yahoo.com]
 2019-06-12 03:29:26,051 p=2051 u=ansible |  ok: [ansible2.example.com]
 2019-06-12 03:29:27,425 p=2051 u=ansible |  fatal: [ansible3.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host ansible3.example.com port 22: No route to host", "unreachable": true}
 2019-06-12 03:29:27,443 p=2051 u=ansible |  TASK [print debug message] ***************************************************************************
-2019-06-12 03:29:27,613 p=2051 u=ansible |  ok: [ansible1.example.com] => {
+2019-06-12 03:29:27,613 p=2051 u=ansible |  ok: [ourselvesshelves.corp.ir2.yahoo.com] => {
     "msg": "Hello world!"
 }
 2019-06-12 03:29:27,625 p=2051 u=ansible |  ok: [ansible2.example.com] => {
@@ -80,7 +80,7 @@ The offending line appears to be:
 2019-06-12 03:29:27,627 p=2051 u=ansible |  	to retry, use: --limit @/home/ansible/rhce8/lesson11/debugme1.retry
 
 2019-06-12 03:29:27,627 p=2051 u=ansible |  PLAY RECAP *******************************************************************************************
-2019-06-12 03:29:27,628 p=2051 u=ansible |  ansible1.example.com       : ok=2    changed=0    unreachable=0    failed=0   
+2019-06-12 03:29:27,628 p=2051 u=ansible |  ourselvesshelves.corp.ir2.yahoo.com       : ok=2    changed=0    unreachable=0    failed=0   
 2019-06-12 03:29:27,628 p=2051 u=ansible |  ansible2.example.com       : ok=2    changed=0    unreachable=0    failed=0   
 2019-06-12 03:29:27,628 p=2051 u=ansible |  ansible3.example.com       : ok=0    changed=0    unreachable=1    failed=0   
 2019-06-12 05:14:44,364 p=2149 u=ansible |  PLAY [use uri module to check] ***********************************************************************

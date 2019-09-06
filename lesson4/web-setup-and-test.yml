@@ -1,6 +1,6 @@
 ---
 - name: enable webserver
-  hosts: ansible1.example.com
+  hosts: ourselvesshelves.corp.ir2.yahoo.com
   tasks:
     - name: install httpd and firewalld
       yum:
@@ -35,6 +35,6 @@
   tasks:
     - name: connect to the web server
       uri:
-        url: http://ansible1.example.com
+        url: http://ourselvesshelves.corp.ir2.yahoo.com
         return_content: yes
         status_code: 200
